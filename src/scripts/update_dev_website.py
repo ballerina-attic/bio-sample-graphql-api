@@ -27,7 +27,7 @@ def main():
         
     commit_message = 'Update Ballerina in Action samples'
     try:
-        update = commit_file('components/home-page/bal-action/graphql-api.md', updated_file, 'update-graphql-api', commit_message)[0]
+        update = commit_file('components/home-page/bal-action/action-bbe/graphql-api.md', updated_file, 'update-graphql-api', commit_message)[0]
 
         if update:
             pr_title = '[Automated] Update Ballerina in Action samples'
